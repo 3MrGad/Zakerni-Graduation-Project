@@ -1,0 +1,12 @@
+{
+  "patient_id": 2,
+  "text": "أنا فين",
+  "patient_name": "Ahmed",
+  "caregiver_name": "الشخص الموثوق",
+  "home_description": "",
+  "comfort_items": [],
+  "history": [],
+  "state": "NONE",
+  "critical_state": "NONE",
+  "critical_step": 0
+}
