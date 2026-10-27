@@ -1,0 +1,44 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+firebase-credentials*.json
+service-account*.json
+
+# Local database files and dumps
+Laravel/mysql-local/
+*.sql
+!database/schema.sql
+
+# Laravel
+Laravel/vendor/
+Laravel/node_modules/
+Laravel/public/build/
+Laravel/public/hot
+Laravel/public/storage
+Laravel/storage/*.key
+Laravel/.phpunit.result.cache
+
+# Flutter / Dart
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Runtime data written by the game backend
+memory_bridge_backend_api/memory_bridge_app_backend/user_scores.json
+memory_bridge_backend_api/memory_bridge_app_backend/analytics_data.json
+
+# Runtime-uploaded user data (patient photos, uploads) — never commit real user data
+memory_bridge_backend_api/memory_bridge_app_backend/static/patients/
+memory_bridge_backend_api/memory_bridge_app_backend/static/uploads/
